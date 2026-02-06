@@ -1,0 +1,16 @@
+# Python internals
+__pycache__/
+*.py[cod]
+
+# Virtual Environment (Crucial!)
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Project specific: Don't upload user files!
+uploads/
+processed/
+*.pdf
