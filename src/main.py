@@ -12,7 +12,7 @@ from redactor import PDFRedactionService
 
 app = FastAPI(title="Redaction API")
 
-# Allow CORS so your frontend (running on a different port) can talk to this backend
+# Allow CORS (use middleware)so your frontend (running on a different port) can talk to this backend.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # In production, replace "*" with your frontend domain
